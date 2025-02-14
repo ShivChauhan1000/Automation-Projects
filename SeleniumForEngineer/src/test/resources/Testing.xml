@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="All Suite Tests" verbose="1">
+
+<!--    <test name="Tests Run By Package">-->
+<!--        <packages>-->
+<!--            <package name="com.practiceAutomation.Test.login"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+
+    <test name="Test Run by Individual Method">
+        <classes>
+            <class name="com.practiceAutomation.Test.login.AutomationTest">
+                <methods>
+                    <include name="youTubetest"></include>
+                    <include name="swagLabsLogin"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="Regressions Test">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--               <include name="regression"></include>-->
+<!--                <exclude name="mixed"></exclude>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+<!--        <packages>-->
+<!--                 <package name="com.practiceAutomation.Test.login"/>-->
+<!--        </packages>-->
+<!--    </test>-->
+
+<!--    <test name="Test run by class">-->
+<!--        <classes>-->
+<!--            <class name="com.practiceAutomation.Test.login.PositiveLoginTest"/>-->
+<!--            <class name="com.practiceAutomation.Test.login.NegativeLoginTests"/>-->
+<!--            <class name="com.practiceAutomation.Test.login.AutomationTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

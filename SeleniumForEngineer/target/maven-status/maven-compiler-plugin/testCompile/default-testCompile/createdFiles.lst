@@ -1,0 +1,3 @@
+com\practiceAutomation\Test\login\AutomationTest.class
+com\practiceAutomation\Test\login\PositiveLoginTest.class
+com\practiceAutomation\Test\login\NegativeLoginTests.class
